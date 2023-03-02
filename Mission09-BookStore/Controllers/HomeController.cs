@@ -28,7 +28,7 @@ namespace Mission09_BookStore.Controllers
         // This controls the index page by checking what pages the user is on and outputting the correct books
         public IActionResult Index(int pageNum = 1)
         {
-            int pageSize = 5;
+            int pageSize = 10;
 
             var x = new BooksViewModel
             {
